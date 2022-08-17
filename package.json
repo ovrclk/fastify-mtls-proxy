@@ -1,6 +1,6 @@
 {
   "name": "@akashnetwork/fastify-mtls-proxy",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {

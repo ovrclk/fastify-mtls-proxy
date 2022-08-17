@@ -79,7 +79,7 @@ export default fp(
 
       // // we can forward the cert and key here, if we have them
       if (proxy_cert && proxy_key) {
-        opts.body = req.method !== 'GET' ? { ...restBody } : undefined;
+        opts.body = req.method !== 'GET' ? { ...restBody } : null;
         opts.http = {
           ...opts.http,
           agents: {
