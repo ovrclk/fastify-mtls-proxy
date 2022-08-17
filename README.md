@@ -1,4 +1,4 @@
-# @dmikey/fastify-mtls-proxy
+# @akashnetwork/fastify-mtls-proxy
 
 This proxy server seamlessly accepts client certificates and keys to forward upstream.
 
@@ -15,7 +15,7 @@ This server allows that communication to easily facilitate. Using natural `proxy
 install the package
 
 ```bash
-yarn add @dmikey/fastify-mtls-proxy
+yarn add @akashnetwork/fastify-mtls-proxy
 ```
 
 setup the server to receive mTLS requests to forward.
