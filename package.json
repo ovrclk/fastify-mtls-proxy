@@ -1,6 +1,6 @@
 {
-  "name": "@dmikey/fastify-mtls-proxy",
-  "version": "1.0.2",
+  "name": "@akashnetwork/fastify-mtls-proxy",
+  "version": "1.1.0",
   "main": "src/index.js",
   "license": "MIT",
   "scripts": {
@@ -21,7 +21,7 @@
     "semver": "^7.3.7",
     "ts-jest": "^28.0.3",
     "ts-node": "^10.8.0",
-    "typescript": "^4.7.2",
+    "typescript": "^4.7.4",
     "undici": "^5.4.0",
     "ws": "^8.7.0"
   },
@@ -30,5 +30,11 @@
     "@types/pump": "^1.1.1",
     "@types/semver": "^7.3.9",
     "@types/ws": "^8.5.3"
-  }
+  },
+  "files": [
+    "src/*.js",
+    "README.md",
+    "package.json",
+    "yarn.lock"
+  ]
 }
